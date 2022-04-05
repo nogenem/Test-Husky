@@ -1,0 +1,14 @@
+{
+  "name": "test-husky",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nogenem/Test-Husky.git",
+  "author": "Gilney N Mathias <gilney_salvo@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^7.0.0"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  }
+}
