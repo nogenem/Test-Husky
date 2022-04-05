@@ -1,0 +1,8 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+version=$(date +"%Y%m%d%H%M%S")
+echo "$version" > version.txt
+git add -A .
+git commit -m "New version $version"
+exit 0
